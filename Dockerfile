@@ -5,10 +5,6 @@ LABEL maintainer="Sergey Besedin <kr3ssh@gmail.com>"
 RUN \
   apk add --no-cache \
     build-base \
-    xz \
-    bash \
-    less \
-    git \
     nodejs \
     nodejs-npm \
     postgresql-client \
